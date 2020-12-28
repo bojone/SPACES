@@ -13,6 +13,24 @@
 
 顾名思义，这是一个以词为单位的、包含预训练和Copy机制的“抽取-生成”式摘要模型，里边包含了一些我们对文本生成技术的最新研究成果。
 
+## 运行
+
+```bash
+#! /bin/bash
+
+python extract_convert.py
+python extract_vectorize.py
+
+for ((i=0; i<15; i++));
+    do
+        python extract_model.py $i
+    done
+
+python seq2seq_words.py
+python seq2seq_convert.py
+python seq2seq_model.py
+```
+
 ## 交流
 
 QQ交流群：808623966，微信群请加机器人微信号spaces_ac_cn
