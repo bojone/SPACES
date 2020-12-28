@@ -15,6 +15,9 @@
 
 ## 运行
 
+实验环境：tensorflow 1.14 + keras 2.3.1 + bert4keras 0.9.8
+
+训练代码：
 ```bash
 #! /bin/bash
 
