@@ -1,6 +1,7 @@
 #! -*- coding: utf-8 -*-
 # 法研杯2020 司法摘要
 # 抽取式：数据转换
+# 科学空间：https://kexue.fm
 
 import os
 import json
