@@ -1,6 +1,7 @@
 #! -*- coding: utf-8 -*-
 # 法研杯2020 司法摘要
 # 工具代码合集
+# 科学空间：https://kexue.fm
 
 import numpy as np
 from rouge import Rouge
