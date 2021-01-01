@@ -185,6 +185,9 @@ output = model.get_layer('MLM-Norm').output
 output = Dense(3, activation='softmax')(output)
 outputs = model.outputs + [output]
 
+# 预测用模型
+model = Model(model.inputs, outputs)
+
 # 训练用模型
 y_in = Input(shape=(None,))
 l_in = Input(shape=(None,))
