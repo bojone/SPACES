@@ -1,6 +1,8 @@
 # SPACES
 端到端的长本文摘要模型（法研杯2020司法摘要赛道）。整理中。
 
+博客介绍：https://kexue.fm/archives/8046
+
 ## 含义
 
 我们将我们的模型称为SPACES，它正好是科学空间的域名之一（[https://spaces.ac.cn](https://spaces.ac.cn)），具体含义如下：
