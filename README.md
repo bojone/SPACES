@@ -34,6 +34,13 @@ python seq2seq_convert.py
 python seq2seq_model.py
 ```
 
+预测代码
+```python
+from final import *
+summary = predict(text, topk=3)
+print(summary)
+```
+
 ## 交流
 
 QQ交流群：808623966，微信群请加机器人微信号spaces_ac_cn
