@@ -7,7 +7,7 @@
 
 我们将我们的模型称为SPACES，它正好是科学空间的域名之一（[https://spaces.ac.cn](https://spaces.ac.cn)），具体含义如下：
 - **S**：Sparse Softmax；
-- **P**：Pretraiend Language Model；
+- **P**：Pretrained Language Model；
 - **A**：Abstractive；
 - **C**：Copy Mechanism；
 - **E**：Extractive；
