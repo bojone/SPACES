@@ -1,6 +1,7 @@
 #! -*- coding: utf-8 -*-
 # 法研杯2020 司法摘要
 # 工具代码合集
+# 注：最好写绝对路径，否则可能出现无法预料的错误。
 # 科学空间：https://kexue.fm
 
 import numpy as np
