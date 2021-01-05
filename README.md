@@ -33,7 +33,6 @@ for ((i=0; i<15; i++));
         python extract_model.py $i
     done
 
-python seq2seq_words.py
 python seq2seq_convert.py
 python seq2seq_model.py
 ```
