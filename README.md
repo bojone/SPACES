@@ -51,6 +51,6 @@ QQ交流群：808623966，微信群请加机器人微信号spaces_ac_cn
 ## 链接
 
 - 博客：https://kexue.fm
-- 追一：http://zhuiyi.ai/
+- 追一：https://zhuiyi.ai/
 - 预训练模型：https://github.com/ZhuiyiTechnology/pretrained-models
 - WoBERT：https://github.com/ZhuiyiTechnology/WoBERT
