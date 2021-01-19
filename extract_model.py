@@ -132,7 +132,7 @@ def evaluate(data, data_x, threshold=0.2):
         yp = yp[:len(d[0])]
         yp = np.where(yp > threshold)[0]
         pred_summary = ''.join([d[0][i] for i in yp])
-        metrics = compute_metrics(pred_summary, d[2], 'token')
+        metrics = compute_metrics(pred_summary, d[2], 'char')
         for k, v in metrics.items():
             total_metrics[k] += v
     return {k: v / len(data) for k, v in total_metrics.items()}
