@@ -19,6 +19,8 @@
 
 实验环境：tensorflow 1.14 + keras 2.3.1 + bert4keras 0.9.7
 
+(如果是Windows，请用bert4keras>=0.9.8)
+
 首先请在`snippets.py`中修改相关路径配置，然后再执行下述代码。
 
 训练代码：
