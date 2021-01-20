@@ -9,6 +9,7 @@ from tqdm import tqdm
 from bert4keras.backend import keras, K
 from bert4keras.layers import LayerNormalization
 from bert4keras.optimizers import Adam
+from bert4keras.snippets import open
 from keras.layers import *
 from keras.models import Model
 from snippets import *
@@ -33,7 +34,7 @@ def load_data(filename):
     返回：[(texts, labels, summary)]
     """
     D = []
-    with open(filename, encoding="utf-8") as f:
+    with open(filename, encoding='utf-8') as f:
         for l in f:
             D.append(json.loads(l))
     return D
