@@ -33,7 +33,7 @@ def load_data(filename):
     返回：[(texts, labels, summary)]
     """
     D = []
-    with open(filename) as f:
+    with open(filename, encoding="utf-8") as f:
         for l in f:
             D.append(json.loads(l))
     return D
